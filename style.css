@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul,
+ol {
+    margin-bottom: 1em;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0.5px solid #ccc;
+    margin: 1em 0;
+}
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #777;
+}
+
+/* Add some padding to the body */
+body {
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the section containing education, work experience, etc. */
+section {
+    margin-bottom: 2em;
+}
+
+/* Style the list items within sections */
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Style links within paragraphs */
+p a {
+    color: #007BFF;
+}
+
+/* Style the footer */
+footer {
+    margin-top: 2em;
+    text-align: center;
+    color: #777;
+}
