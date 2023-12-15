@@ -17,8 +17,6 @@ body {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(9, 121, 90, 1) 100%, rgba(9, 121, 90, 1) 100%);
 }
 
-
-
 h1,
 h2,
 h3 {
@@ -49,7 +47,7 @@ ol {
 }
 
 a {
-    color: #007BFF;
+    color: black;
 }
 
 a:hover {
@@ -69,61 +67,49 @@ hr {
 footer {
     margin-top: 2em;
     text-align: center;
-    color: #777;
+    color: black;
 }
 
-/* Add some padding to the body */
 body {
     padding: 20px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(9, 121, 90, 1) 100%, rgba(9, 121, 90, 1) 100%);
 }
 
-/* Style the header */
 header {
-    background-color: #f8f9fa;
     padding: 10px;
     text-align: center;
 }
 
-/* Style the main content area */
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Style the section containing education, work experience, etc. */
 section {
     margin-bottom: 2em;
 }
 
-/* Style links within paragraphs */
 p a {
-    color: #007BFF;
+    color:black;
 }
 
-/* Style the footer */
-footer {
-    margin-top: 2em;
-    text-align: center;
-    color: #777;
-}
 
-/* Style the summary section */
+
 #summary {
     display: flex;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
-    background-color: #f8f9fa;
+    text-align: left;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the profile picture */
 .profile-picture {
     width: 150px;
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .profile-picture img {
@@ -133,60 +119,41 @@ footer {
     border-radius: 50%;
 }
 
-/* Style the summary text */
 .summary-text {
-    margin-left: 20px;
-    flex: 1;
-    
+    text-align: center;
 }
 
 .summary-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 .highlight {
     font-weight: bold;
     font-size: 1.2em;
-    color: #007BFF;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    color: black;
 }
 
 .summary-text p {
     font-size: 1.1em;
     line-height: 1.6;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-height: 3.2em;
     margin-bottom: 0;
 }
 
-/* Style the Skills section */
 #skills {
     margin-bottom: 2em;
 }
 
-/* Style the skill categories */
 .skill-category {
     margin-bottom: 1em;
 }
 
-/* Style the skills list */
 .skill-category ul {
     list-style: none;
     display: flex;
-    /* Display skills side by side */
     flex-wrap: wrap;
-    /* Allow skills to wrap to the next line if there's not enough space */
 }
 
 .skill-category ul li {
     margin-right: 1em;
-
 }
-
