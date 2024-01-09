@@ -1,4 +1,3 @@
-```markdown
 # html_resume
 
 Brief description of your project.
@@ -21,7 +20,7 @@ These instructions will help you get a copy of the project up and running on you
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Ismat-Samadov/html_resume/
    cd your-repository
    ```
 
@@ -50,7 +49,4 @@ If you want to contribute to the project, follow these steps:
 2. Create a new branch.
 3. Make your changes and commit them.
 4. Push to your fork and submit a pull request.
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the code of conduct and the process for submitting pull requests.
-
 ```
