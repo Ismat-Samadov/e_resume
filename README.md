@@ -17,24 +17,12 @@ Provide a brief overview of your project. Include its purpose, features, and any
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-1. **Clone the repository:**
+ **Clone the repository:**
    ```bash
    git clone https://github.com/Ismat-Samadov/html_resume/
-   cd your-repository
+   cd html_resume
    ```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configuration:**
-   - If your project requires any configuration, provide information on how to set it up.
-
-4. **Run the project:**
-   ```bash
-   npm start
-   ```
 
 ## Usage
 
