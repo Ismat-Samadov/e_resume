@@ -107,19 +107,21 @@
     <footer>
         <p>© 2023 Ismat Samadov</p>
     </footer>
-    <script>
-        function openCertificationAndDownload() {
-            // Open the certification URL in a new tab
-            var certificationUrl = "https://catalog-education.oracle.com/pls/apex/f?p=1010:2:102653048376922::NO:RP:P2_AUTHCODE,P2_AUTH_KEY,P2_ARG_INVALID_CNT:Ph156118hV47D,cOpJB156046UbeO4312onHs,0";
-            window.open(certificationUrl, "_blank");
+<script>
+    function openCertificationAndDownload() {
+        var certificationUrl = "https://catalog-education.oracle.com/pls/apex/f?p=1010:2:102653048376922::NO:RP:P2_AUTHCODE,P2_AUTH_KEY,P2_ARG_INVALID_CNT:Ph156118hV47D,cOpJB156046UbeO4312onHs,0";
+        window.open(certificationUrl, "_blank");
 
-            // Start downloading the file
-            var downloadLink = document.createElement('a');
-            downloadLink.href = "./assets/OCA.pdf";
-            downloadLink.download = "Oracle_Certification.pdf";
-            downloadLink.click();
-        }
-    </script>
+        var downloadLink = document.createElement('a');
+        downloadLink.href = "./assets/OCA.pdf";
+        downloadLink.download = "Ismat_Samadov_Certification.pdf";
+        downloadLink.style.display = "none"; // Hide the link
+        document.body.appendChild(downloadLink); // Append the link to the body
+        downloadLink.click(); // Simulate click
+        document.body.removeChild(downloadLink); // Clean up
+    }
+</script>
+
 </body>
 
 </html>
