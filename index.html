@@ -109,16 +109,15 @@
     </footer>
 <script>
     function openCertificationAndDownload() {
+        // Open the certification URL in a new tab
         var certificationUrl = "https://catalog-education.oracle.com/pls/apex/f?p=1010:2:102653048376922::NO:RP:P2_AUTHCODE,P2_AUTH_KEY,P2_ARG_INVALID_CNT:Ph156118hV47D,cOpJB156046UbeO4312onHs,0";
         window.open(certificationUrl, "_blank");
 
-        var downloadLink = document.createElement('a');
-        downloadLink.href = "./assets/Ismat_Samadov_Certification.pdf";
-        downloadLink.download = "OCA.pdf";
-        downloadLink.style.display = "none"; // Hide the link
-        document.body.appendChild(downloadLink); // Append the link to the body
-        downloadLink.click(); // Simulate click
-        document.body.removeChild(downloadLink); // Clean up
+        // Start downloading the file
+        var iframe = document.createElement('iframe');
+        iframe.style.display = "none";
+        iframe.src = "./assets/OCA.pdf";
+        document.body.appendChild(iframe);
     }
 </script>
 
