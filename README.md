@@ -19,7 +19,7 @@ These instructions will help you get a copy of the project up and running on you
 
  **Clone the repository:**
    ```bash
-   git clone https://github.com/Ismat-Samadov/html_resume/
+   git clone https://github.com/Ismat-Samadov/e_resume/
    cd html_resume
    ```
 
